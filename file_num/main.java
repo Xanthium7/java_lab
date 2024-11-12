@@ -21,7 +21,7 @@ class Main {
         try {
             pw = new PrintWriter("file_num/numbers.txt");
             for (int num : numbers) {
-                pw.println(num);
+                pw.print(num);
 
             }
             pw.close();
@@ -60,7 +60,7 @@ class Main {
                 }
             }
         }
-        String x = new String(ch);
+        String x = new String(ch).strip();
         System.out.println("Sorted Numbers: " + x);
 
         // Write the sorted numbers to another file
