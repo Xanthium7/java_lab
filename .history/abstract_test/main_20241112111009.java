@@ -1,8 +1,7 @@
 package abstract_test;
 
 interface Shaping {
-    int a = 10;
-
+    i
     void area();
 
 }
